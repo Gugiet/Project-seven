@@ -1,0 +1,75 @@
+.button {
+  // zmienne zapisane niezgodnie z saas
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e86f54;
+  border: none;
+  border-radius: 38px;
+  &:hover {
+    background-color: #e25b41;
+  }
+  &:focus {
+    background-color: #fa6f54;
+  }
+  &--mobile-s {
+    padding: 8px 39.5px;
+    font-size: 18px;
+  }
+  &--mobile-m {
+    padding: 10px 35px;
+    font-size: 20px;
+  }
+  &--desktop-tablet {
+    font-size: 28px;
+    padding: 20px 0;
+    width: 280px;
+  }
+}
+
+.button-popup {
+  // do poprawy zmienne
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #e86f54;
+  &--active {
+    &:hover {
+      background-color: #e25b41;
+    }
+    &:focus {
+      background-color: #fa6f54;
+    }
+  }
+  &--unactive {
+    background-color: rgba(232, 111, 84, 0.4);
+  }
+  &--mobile {
+    width: 240px;
+    height: 37px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &--desktop-tablet {
+    width: 416px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &--subscribe-mobile {
+    width: 236px;
+    height: 37px;
+  }
+  &--subscribe-desktop-tablet {
+    width: 336px;
+    height: 50px;
+  }
+}
